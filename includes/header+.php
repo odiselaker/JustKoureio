@@ -27,7 +27,7 @@
   <div class="line"></div>
 </div>
 
-      <h1 class="monsieur-la-doulaise-regular">JustKoureio</h1>
+    <h1 class="monsieur-la-doulaise-regular">JustKoureio</h1>
 
   </div>
 

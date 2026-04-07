@@ -1,15 +1,16 @@
-<?php
+<?php 
+
 $host = 'localhost';
-$port = 3306;
+$port = '3306';
+$dbname = 'koureiodb';
 $username = 'root';
 $password = "";
-$database = "koureiodb";
 
-try{
-    $conn = new PDO("mysql:host=$host;port=$port;dbname=$database", $username, $password);
+try {
+    $conn = new PDO("mysql:host=$host;port=$port;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(PDOException $e){
-    die("Error: " . $e->getMessage());
+} catch(PDOException $e) {
+    die("error: " . $e->getMessage());
 }
 
 ?>
