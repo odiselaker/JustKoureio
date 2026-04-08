@@ -1,0 +1,22 @@
+.tablee {
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    margin: 0 auto; 
+    margin-top: 25px;
+    border: 2px solid gold;
+    overflow: hidden;
+}
+
+.tablee table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablee th, .tablee td {
+    padding: 8px;
+    border: 1px solid #999;
+    font-size: 14px;
+}

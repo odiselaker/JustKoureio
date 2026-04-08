@@ -42,6 +42,14 @@
     <a href="#"><img src="/my-project/assets/icons/instagram.png" height="auto" width="50px" alt="icon"></a> 
     <a href="#"><img src="/my-project/assets/icons/telegram.png" height="auto" width="50px" alt="icon"></a> 
     <a href="#"><img src="/my-project/assets/icons/facebook.png" height="auto" width="50px" alt="icon"></a> 
+
+    <iframe class="map bd-radius-5 mt-50" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48459.39317770896!2d22.90929196661237!3d40.61417583416895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a838f41428e0ed%3A0x9bae715b8d574a9!2zzpjOtc-Dz4POsc67zr_Ovc6vzrrOtw!5e0!3m2!1sel!2sgr!4v1775668582146!5m2!1sel!2sgr" 
+      height="250px"
+      width="350px"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+   </iframe>
  </div>
 </div>
 

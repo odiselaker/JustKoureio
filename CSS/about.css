@@ -1,0 +1,17 @@
+.title-content {
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    border-radius: 15px;
+    width: 40%;
+    height: auto;
+    margin: 0 auto; 
+    margin-top: 25px;
+}
+
+.title-content h1 {
+    color: rgb(252, 227, 145);
+}
+
+.title-content p {
+    font-size: 20px;
+}
