@@ -1,0 +1,12 @@
+.photos {
+    justify-content: center;
+    margin-top: 10%;
+    gap: 75px;
+}
+
+.photos p{
+    font-family: "Syncopate", sans-serif;
+    font-size: 35px;
+    width: 710px;
+    color: rgb(252, 227, 145);
+}
