@@ -27,4 +27,8 @@
     </div>
 </div>
 
+<div class="datahours">
+    <?php include_once 'php-elements/data-hours.php'; ?>
+</div>
+
 <?php include_once 'includes/footer.php'; ?>

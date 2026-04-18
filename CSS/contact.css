@@ -7,12 +7,11 @@
     margin: 0 auto; 
     margin-top: 25px;
     border: 2px solid gold;
-    overflow: hidden;
 }
 
 .tablee table {
     width: 100%;
-    border-collapse: collapse;
+    
 }
 
 .tablee th, .tablee td {
