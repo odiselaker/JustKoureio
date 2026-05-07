@@ -11,9 +11,9 @@ html, body{
 }
 
 .header {
-    position: relative;
-    min-height: 200px !important; 
-    overflow: hidden;
+  position: relative;
+  min-height: 200px !important; 
+  overflow: hidden;
 }
 
 
