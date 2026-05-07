@@ -120,7 +120,7 @@ html, body{
   margin-top: 80px;
   color: rgb(252, 227, 145);
   text-decoration: none;
-  height: auto;
+  font-size: 25px;
 }
 
 .sidebar .closeSidebar {

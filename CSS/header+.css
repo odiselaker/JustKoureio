@@ -37,7 +37,13 @@ html, body{
   margin-top: 80px;
   color: rgb(252, 227, 145);
   text-decoration: none;
-  height: auto;
+  font-size: 25px;
+ 
+}
+
+.sidebar a:hover {
+  color: rgb(255, 255, 255);
+  transition: color 0.3s ease;
 }
 
 .sidebar .closeSidebar {
