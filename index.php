@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/my-project/CSS/style.css">
-<link rel="stylesheet" href="/my-project/CSS/index.css">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="CSS/index.css">
 
 <?php $page_title = "Home"; ?>
 
@@ -10,14 +10,14 @@
 <div class="container">
     <div class="photos d-flex">
         <div class="bigphoto">
-            <img src="/my-project/assets/images/photoBIG.jpg"
+            <img src="assets/images/photoBIG.jpg"
                 height="auto" 
                 width="800px"
                 alt="barber">
         </div>
 
         <div class="smallphoto">
-            <img src="/my-project/assets/images/photoLITTLE.jpg"
+            <img src="assets/images/photoLITTLE.jpg"
                 height="auto" 
                 width="800px"
                 alt="barber">

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/my-project/CSS/contact.css">
+<link rel="stylesheet" href="CSS/contact.css">
 
 <?php $page_title = 'Contact'; ?>
 

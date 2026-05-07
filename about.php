@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/my-project/CSS/about.css">
+<link rel="stylesheet" href="CSS/about.css">
 
 <?php $page_title = "About"; ?>
 
