@@ -75,6 +75,8 @@ html, body{
 }
 
 .logo {
+  height: auto;
+  width: 180px;
   position: absolute;
   top: 30px;
   left: 25px;
@@ -163,4 +165,53 @@ html, body{
   margin: 0 10px; 
 }
 
+.social img{
+  height: auto;
+  width: 50px;
+}
+
 /*=============== MAP ==============*/
+
+.map {
+  height: 350px;
+  width: 350px;
+}
+
+/*=============== MEDIA SCREEN ==============*/
+
+@media (max-width: 1340px) {
+  .sidebar {
+    min-width: 350px;
+  }
+
+  .social img {
+    width: 45px;
+  }
+
+  .map {
+    height: 300px;
+    width: 300px;
+  }
+
+  .header {
+    min-height: 1000px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .logo {
+    width: 140px;
+    top: 30px;
+    left: 25px;
+  }
+}
+
+
+@media (max-width: 580px) {
+  .logo {
+    width: 140px;
+    top: 25px;
+    left: 15px;
+  }
+}

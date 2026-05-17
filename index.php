@@ -10,17 +10,11 @@
 <div class="container">
     <div class="photos d-flex">
         <div class="bigphoto">
-            <img src="assets/images/photoBIG.jpg"
-                height="auto" 
-                width="800px"
-                alt="barber">
+            <img src="assets/images/photoBIG.jpg" alt="barber">
         </div>
 
         <div class="smallphoto">
-            <img src="assets/images/photoLITTLE.jpg"
-                height="auto" 
-                width="800px"
-                alt="barber">
+            <img src="assets/images/photoLITTLE.jpg" alt="barber">
 
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque officia recusandae repellendus ut consequuntur laboriosam aperiam labore deleniti nesciunt. Vel quibusdam consequatur, asperiores ipsam neque sit iure rem architecto fuga?</p>
         </div>

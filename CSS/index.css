@@ -4,9 +4,141 @@
     gap: 75px;
 }
 
+.photos .bigphoto img,
+.photos .smallphoto img {
+    width: 800px;
+    height: auto;
+}
+
 .photos p{
     font-family: "Syncopate", sans-serif;
     font-size: 35px;
     width: 710px;
     color: rgb(252, 227, 145);
+}
+
+
+
+/*============== MEDIA SCREEN =============*/
+
+
+@media (max-width: 1735px) {
+    .photos p{
+        font-size: 32px;
+    }
+
+    .photos .bigphoto img,
+    .photos .smallphoto img {
+        width: 700px;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 1540px) {
+    .photos {
+        gap: 60px;
+    }
+
+    .photos p{
+        font-size: 25px;
+        width: 610px;
+    }
+
+    .photos .bigphoto img,
+    .photos .smallphoto img {
+        width: 600px;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 1340px) {
+    .photos {
+        gap: 55px;
+    }
+
+    .photos p{
+        font-size: 22px;
+        width: 500px;
+    }
+
+    .photos .bigphoto img,
+    .photos .smallphoto img {
+        width: 550px;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 1210px) {
+    .photos {
+        gap: 56px;
+    }
+
+    .photos p{
+        font-size: 17px;
+        width: 400px;
+    }
+
+    .photos .bigphoto img,
+    .photos .smallphoto img {
+        width: 400px;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .photos {
+        gap: 54px;
+    }
+
+    .photos p{
+        font-size: 13px;
+        width: 350px;
+    }
+
+    .photos .bigphoto img,
+    .photos .smallphoto img {
+        width: 330px;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .photos {
+        gap: 40px;
+    }
+
+    .photos p{
+        font-size: 10px;
+        width: 220px;
+    }
+
+    .photos .bigphoto img,
+    .photos .smallphoto img {
+        width: 250px;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 580px) {
+    .photos {
+        gap: 30px;
+    }
+
+    .photos p{
+        font-size: 10px;
+        width: 220px;
+    }
+
+    .photos .bigphoto img,
+    .photos .smallphoto img {
+        width: 200px;
+        height: auto;
+    }
+    
 }

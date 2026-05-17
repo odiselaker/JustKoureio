@@ -8,7 +8,7 @@
 ?> 
 
 <div class="tablee">
-<table border="1">
+<table>
     <tr>
         <th>days</th>
         <th>Morninghours</th>
@@ -18,8 +18,8 @@
     <?php foreach($calendar as $days): ?>
     <tr>
         <td><?php echo htmlspecialchars($days['days']); ?></td>
-        <td><?php echo htmlspecialchars($days['MorningHours_start']) . " - " . htmlspecialchars($days['MorningHours_end']); ?></td>
-        <td><?php echo htmlspecialchars($days['NightHours_start']) . " - " . htmlspecialchars($days['NightHours_end']); ?></td>
+        <td><?php echo htmlspecialchars($days['MorningHours_start'] ?? '') . " - " . htmlspecialchars($days['MorningHours_end'] ?? ''); ?></td>
+        <td><?php echo htmlspecialchars($days['NightHours_start'] ?? '') . " - " . htmlspecialchars($days['NightHours_end'] ?? ''); ?></td>
     </tr>
     <?php endforeach; ?>
 
