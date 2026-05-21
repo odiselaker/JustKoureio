@@ -21,6 +21,8 @@
     </div>
 </div>
 
+<p id="workingdays">WORKING DAYS</p>
+
 <div class="datahours">
     <?php include_once 'php-elements/data-hours.php'; ?>
 </div>
